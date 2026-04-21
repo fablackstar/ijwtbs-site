@@ -1,0 +1,35 @@
+body.character-bg-black {
+      background-image: url(../images/characters/black/bg.webp);
+}
+
+body.character-bg-red {
+      background-image: url(../images/characters/red/bg.webp);
+}
+
+body.character-bg-orange {
+      background-image: url(../images/characters/orange/bg.webp);
+}
+
+body.character-bg-yellow {
+      background-image: url(../images/characters/yellow/bg.webp);
+}
+
+body.character-bg-green {
+      background-image: url(../images/characters/green/bg.webp);
+}
+
+body.character-bg-blue {
+      background-image: url(../images/characters/blue/bg.webp);
+}
+
+body.character-bg-purple {
+      background-image: url(../images/characters/purple/bg.webp);
+}
+
+body.character-bg-pink {
+      background-image: url(../images/characters/pink/bg.webp);
+}
+
+body.character-bg-teal {
+      background-image: url(../images/characters/teal/bg.webp);
+}
