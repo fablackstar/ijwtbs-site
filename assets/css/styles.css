@@ -473,6 +473,79 @@ img {
       gap: 7px;
 }
 
+.site-header .navbar .menu-toggle {
+      display: none;
+}
+
+@media (max-width: 767px) {
+      .site-header .navbar {
+            overflow-x: hidden;
+            overflow-y: visible;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 8px 0;
+      }
+
+      .site-header .navbar .menu-toggle {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid var(--pink);
+            background-color: var(--secondary-text-color);
+            color: var(--pink);
+            font-family: var(--primary-font), sans-serif;
+            font-size: var(--text-size-md);
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 6px 14px;
+            cursor: pointer;
+      }
+
+      .site-header .navbar .menu-toggle:hover {
+            background-color: var(--light-pink);
+      }
+
+      .site-header .navbar:before,
+      .site-header .navbar:after {
+            display: none;
+      }
+
+      .site-header .navbar ul.navbar-page-links {
+            width: 100%;
+            justify-content: center;
+            flex-wrap: wrap;
+            row-gap: 6px;
+            display: none;
+      }
+
+      .site-header .navbar ul.navbar-page-links li a:link,
+      .site-header .navbar ul.navbar-page-links li a:visited {
+            white-space: normal;
+            height: auto;
+            line-height: 1.1;
+      }
+
+      .site-header .navbar ul.navbar-social-links {
+            max-width: none;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 4px;
+            display: none;
+      }
+
+      .site-header .navbar.is-menu-open ul.navbar-page-links,
+      .site-header .navbar.is-menu-open ul.navbar-social-links {
+            display: flex;
+      }
+
+      .site-header .navbar.is-menu-open ul.navbar-page-links {
+            margin-top: 6px;
+      }
+}
+
 .site-header .navbar ul.navbar-social-links li {
       /* width: 30px; */
 }
